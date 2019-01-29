@@ -4,6 +4,12 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!--First font-->
+  <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+
+
+  <!--Second font-->
+  <link href='https://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
   <title></title>
 </head>
 
@@ -26,33 +32,38 @@
     <li>then tell it to your best friend</li>
   </ul>
 
-  <section>
-    <h2>
-      The story
-    </h2>
+  <aside class="notification">
+    <p>You have a new message!</p>
+  </aside>
 
+  <h2>
+    The story
+  </h2>
+
+  <section class="qoutes">
     <p>Once upon a time there was a Chinese farmer whose horse ran away.
       That evening, all of his neighbors came around to commiserate.
-      They said, <q>We are so sorry to hear your horse has run away. This is most unfortunate.</q>
-      The farmer said, <q><strong>Maybe</strong>.</q>
-      The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, <q>Oh, isn’t that lucky. What a great turn of events. You now have eight horses!</q>
-      The farmer again said, “<strong>Maybe</strong>.”</p>
+      They said, <q class="neighbour">We are so sorry to hear your horse has run away. This is most unfortunate.</q>
+      The farmer said, <q class="farmer"><strong>Maybe</strong>.</q>
+      The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, <q class="neighbour">Oh, isn’t that lucky. What a great turn of events. You now have eight horses!</q>
+      The farmer again said, <q class="farmer"><strong>Maybe</strong>.</q></p>
 
     <p>The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg.
-      The neighbors then said, <q>Oh dear, that’s too <span class="bad">Bad</span>,</q> and the farmer responded, <q><strong>Maybe</strong>.</q>
+      The neighbors then said, <q class="neighbour">Oh dear, that’s too <span class="bad">BAD</span>,</q> and the farmer responded, <q class="farmer"><strong>Maybe</strong>.</q>
       The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg.
-      Again all the neighbors came around and said, <q>Isn’t that great!</q> Again, he said, <q><strong>Maybe</strong>.</q></p>
+      Again all the neighbors came around and said, <q class="neighbour">Isn’t that great!</q> Again, he said, <q class="farmer"><strong>Maybe</strong>.</q></p>
 
-    <p>The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is <span class="good">Good</span> or <span class="bad">Bad</span> — because you never know what will be the consequence of the misfortune; or, you
-      never know what will be the consequences of <span class="good">Good</span> fortune.</p>
+    <p>The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is <span class="good">GOOD</span> or <span class="bad">BAD</span> — because you never know what
+      will be the consequence of the misfortune; or, you
+      never know what will be the consequences of <span class="good">GOOD</span> fortune.</p>
 
-      <p class="human" name="Alan Watts" nationality="UK" origin="UK" job="PHILOSOPHER" hair="grey">
-        Alan Watts
-      </p>
-
-      <a href="https://youtu.be/OX0OARBqBp0" title="Spoken retelling of the story." target="_blank">Click here for a spoken retelling of the story.</a>
-      <a href="https://en.wikipedia.org/wiki/Alan_Watts" title="More info about Alan Watts." target="_blank">Click here for more information about Alan Watts.</a>
+    <p class="human" name="Alan Watts" nationality="UK" origin="UK" job="PHILOSOPHER" hair="grey">
+      Alan Watts
+    </p>
   </section>
+
+  <a href="https://youtu.be/OX0OARBqBp0" title="Spoken retelling of the story." target="_blank">Click here for a spoken retelling of the story.</a>
+  <a href="https://en.wikipedia.org/wiki/Alan_Watts" title="More info about Alan Watts." target="_blank">Click here for more information about Alan Watts.</a>
 
 
   <hr />
@@ -62,18 +73,18 @@
     <table width="500px">
       <tr>
         <th>Event</th>
-        <th><span class="good">Good</span> or <span class="bad">Bad</span>?</th>
+        <th><span class="good">GOOD</span> or <span class="bad">BAD</span>?</th>
       </tr>
       <tr>
-        <td>Lose a horse </td>
+        <td>Lose a horse <img class="float-image" src="https://github.com/becodeorg/GNK-Holberton-1.9/raw/master/01-De-weide/02-html-css/progressive-enhancement/bien.png" /></td>
         <td><strong>Maybe</strong></td>
       </tr>
       <tr>
-        <td>Win more horses</td>
+        <td>Win more horses <img class="float-image" src="https://github.com/becodeorg/GNK-Holberton-1.9/raw/master/01-De-weide/02-html-css/progressive-enhancement/mal.png" /></td>
         <td><strong>Maybe</strong></td>
       </tr>
       <tr>
-        <td>Son injury</td>
+        <td>Son injury <img class="float-image" src="https://github.com/becodeorg/GNK-Holberton-1.9/raw/master/01-De-weide/02-html-css/progressive-enhancement/chat.png" /></td>
         <td><strong>Maybe</strong></td>
       </tr>
       <tr>
@@ -88,12 +99,15 @@
   <section>
     <h2>Conclusion:</h2>
     <blockquote>
-      <span class="good">Good</span> and <span class="bad">Bad</span> are just one perspective. Bananas are <span class="good">Good</span> for monkeys, but monkeys are not <span class="good">Good</span> for bananas. Let's not make a big deal out of it... - Alan Watts
+      <span class="good">GOOD</span> and <span class="bad">BAD</span> are just one perspective. Bananas are <span class="good">GOOD</span> for monkeys, but monkeys are not <span class="good">GOOD</span> for bananas. Let's not make a big deal out of
+      it...
+      <br />- Alan Watts
     </blockquote>
   </section>
   <hr />
   <footer>
-    <p>Copyright Just Another Company 2017. All right reserved. Adapted from this article: <a href="https://wellsbaum.blog/2018/01/27/alan-watts-the-story-of-the-chinese-farmer/" title="The story of the Chinese farmer." target="_blank">The story of the Chinese farmer.</a></p>
+    <p>Copyright Just Another Company 2017. All right reserved. Adapted from this article: <a href="https://wellsbaum.blog/2018/01/27/alan-watts-the-story-of-the-chinese-farmer/" title="The story of the Chinese farmer." target="_blank">The story of
+        the Chinese farmer.</a></p>
   </footer>
 
 </body>

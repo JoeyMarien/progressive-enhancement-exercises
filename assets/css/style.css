@@ -3,7 +3,20 @@ table, th, td {
   border-collapse: collapse;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
+  width: 90%;
+  margin-left: 65px;
+
+  background: -webkit-linear-gradient(90deg, rgb(255, 255, 255), rgb(132, 132, 132));
+  background: linear-gradient(90deg, rgb(255, 255, 255), rgb(132, 132, 132));
+
+  background: url(https://images.unsplash.com/photo-1548629641-0125d1d872ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+
+}
+
 }
 a:link {
   color: #2d2d2d;
@@ -19,4 +32,61 @@ a:hover {
 
 a:active {
   color: blue;
+}
+
+.qoutes{
+  width: 60%;
+  margin-left: 200px;
+  font-style: italic;
+}
+
+q {
+  font-size: 160%;
+  background-color: lightgray;
+  padding: 0px 0px 0px 30px;
+  margin: 80px 0px;
+}
+
+.neighbour {
+  border-left:solid red 3px;
+}
+
+.farmer
+{
+  border-left:solid green 3px;
+}
+
+h1 {
+  background-color: yellow;
+  font-family: 'La Belle Aurore', cursive;
+  font-size:2em;
+}
+
+.bad{
+  color: red;
+}
+
+.good{
+  color: green;
+}
+
+tr:nth-child(even) {background: grey}
+tr:nth-child(odd) {background: white}
+
+.float-image {
+  float:right;
+}
+
+img{
+  border:1px solid green;
+  padding:5px;
+}
+
+.notification{
+  background:#FFFFDD;
+  padding:.5rem 1rem;
+  border:3px solid #DDDDCC;
+  width:250px;
+  font-weight:bold;
+  color: #333300;
 }
